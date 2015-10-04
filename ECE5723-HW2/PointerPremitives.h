@@ -12,14 +12,14 @@
 
 #endif /* PointerPremitives_h */
 
-void and (char a, char b, char & w);
-void or (char a, char b, char & w);
-void not (char a, char & w);
+void _and (char a, char b, char & w);
+void _or (char a, char b, char & w);
+void _not (char a, char & w);
 void tri (char a, char c, char & w);
 void resolve (char a, char c, char & w);
 
-void and (char* a, char* b, char* w);
-void or (char *a, char *b, char *w);
-void not (char *a, char *w);
+void _and (char* a, char* b, char* w);
+void _or (char *a, char *b, char *w);
+void _not (char *a, char *w);
 void tri (char *a, char *c, char *w);
 void resolve (char *a, char *b, char *w);

@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include "GateClasses.h"
+#include "PointerPremitives.h"
 
 And::And() {}
 void And::evl () {
@@ -20,8 +21,7 @@ Or::Or() {}
 void Or::evl () {
     if ((*i1=='1')||(*i2=='1')) *o1='1';
     else if ((*i1=='0')&&(*i2=='0')) *o1='0';
-    else *o1='X';
-}
+    else *o1='X';}
 
 Not::Not() {}
 void Not::evl () {

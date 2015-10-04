@@ -29,6 +29,13 @@ void _not (char a, char & w)
     'X';
 }
 
+void _xor (char a, char b, char &w)
+{
+    w = (a==b) ? '0':
+    (a!=b) ? '1':
+    'X';
+}
+
 void tri (char a, char c, char & w)
 {
     w = (c=='1') ? a : 'Z';
@@ -66,6 +73,16 @@ void _not (char *a, char *w)
     int i=0;
     do {
         _not (*(a+i), *(w+i));
+        i++;
+    } while (*(a+i) != '\0');
+    *(w+i) = '\0';
+}
+
+void _xor (char *a, char *b, char *w)
+{
+    int i=0;
+    do {
+        _xor (*(a+i), *(b+i), *(w+i));
         i++;
     } while (*(a+i) != '\0');
     *(w+i) = '\0';
