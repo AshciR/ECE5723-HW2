@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		136418C41BC1AB74001154DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418C31BC1AB74001154DE /* main.cpp */; };
 		136418D21BC1B0CD001154DE /* GateClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418D11BC1B0CD001154DE /* GateClasses.cpp */; settings = {ASSET_TAGS = (); }; };
+		136418D91BC1C3FC001154DE /* Comp8Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418D81BC1C3FC001154DE /* Comp8Bits.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		136418C31BC1AB74001154DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		136418D01BC1B08A001154DE /* GateClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GateClasses.h; sourceTree = "<group>"; };
 		136418D11BC1B0CD001154DE /* GateClasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GateClasses.cpp; sourceTree = "<group>"; };
+		136418D31BC1B6B1001154DE /* Comp8Bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comp8Bits.h; sourceTree = "<group>"; };
+		136418D51BC1BF3B001154DE /* Wire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wire.h; sourceTree = "<group>"; };
+		136418D81BC1C3FC001154DE /* Comp8Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comp8Bits.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +64,22 @@
 		136418C21BC1AB74001154DE /* ECE5723-HW2 */ = {
 			isa = PBXGroup;
 			children = (
+				136418D41BC1B6D0001154DE /* Headers */,
 				136418C31BC1AB74001154DE /* main.cpp */,
 				136418D11BC1B0CD001154DE /* GateClasses.cpp */,
-				136418D01BC1B08A001154DE /* GateClasses.h */,
+				136418D81BC1C3FC001154DE /* Comp8Bits.cpp */,
 			);
 			path = "ECE5723-HW2";
+			sourceTree = "<group>";
+		};
+		136418D41BC1B6D0001154DE /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				136418D01BC1B08A001154DE /* GateClasses.h */,
+				136418D31BC1B6B1001154DE /* Comp8Bits.h */,
+				136418D51BC1BF3B001154DE /* Wire.h */,
+			);
+			name = Headers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				136418C41BC1AB74001154DE /* main.cpp in Sources */,
+				136418D91BC1C3FC001154DE /* Comp8Bits.cpp in Sources */,
 				136418D21BC1B0CD001154DE /* GateClasses.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
