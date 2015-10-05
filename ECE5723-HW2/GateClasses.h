@@ -17,7 +17,10 @@ class And {
 public:
     And (); // constructor
     ~And(); // destructor
-    void ios(char& a, char& b, char &w) { i1 = &a; i2 = &b; o1 = &w; }
+    void foobar(char& a, char& b, char& w);
+    //void ios(char& a, char& b, char &w);
+//    { i1 = &a; i2 = &b; o1 = &w; }
+    void ios(char& a, char& b, char& w);
     void evl();
 };
 

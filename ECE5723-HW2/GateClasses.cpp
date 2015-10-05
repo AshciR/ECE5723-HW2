@@ -10,7 +10,16 @@
 #include "GateClasses.h"
 #include "PointerPremitives.h"
 
+
+// And implementation
 And::And() {}
+
+void And::ios(char& a, char& b, char& w) {
+    i1 = &a;
+    i2 = &b;
+    o1 = &w;
+}
+
 void And::evl () {
     if ((*i1=='0')||(*i2=='0')) *o1='0';
     else if ((*i1=='1')&&(*i2=='1')) *o1='1';
