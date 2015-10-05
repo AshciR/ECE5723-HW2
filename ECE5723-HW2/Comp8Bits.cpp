@@ -39,6 +39,10 @@ void Comp8Bits::ios(char&a,
 /* The Comparator implementation */
 void Comp8Bits::evl () {
     
-   
+    /* Array to hold all the Not gates */
+    Not* not_array[8];
+    
+    /* Array to hold all the And gates */
+    And* and_array[15];
    
 }
