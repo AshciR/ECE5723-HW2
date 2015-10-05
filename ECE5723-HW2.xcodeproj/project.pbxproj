@@ -31,7 +31,6 @@
 		136418D01BC1B08A001154DE /* GateClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GateClasses.h; sourceTree = "<group>"; };
 		136418D11BC1B0CD001154DE /* GateClasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GateClasses.cpp; sourceTree = "<group>"; };
 		136418D31BC1B6B1001154DE /* Comp8Bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comp8Bits.h; sourceTree = "<group>"; };
-		136418D51BC1BF3B001154DE /* Wire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wire.h; sourceTree = "<group>"; };
 		136418D81BC1C3FC001154DE /* Comp8Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comp8Bits.cpp; sourceTree = "<group>"; };
 		136418DA1BC1CBB0001154DE /* PointerPremitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerPremitives.h; sourceTree = "<group>"; };
 		136418DB1BC1CBDB001154DE /* PointerPremitives.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointerPremitives.cpp; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 			children = (
 				136418D01BC1B08A001154DE /* GateClasses.h */,
 				136418D31BC1B6B1001154DE /* Comp8Bits.h */,
-				136418D51BC1BF3B001154DE /* Wire.h */,
 				136418DA1BC1CBB0001154DE /* PointerPremitives.h */,
 			);
 			name = Headers;
@@ -263,6 +261,7 @@
 				136418C91BC1AB74001154DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

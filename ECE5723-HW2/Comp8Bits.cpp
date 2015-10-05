@@ -13,14 +13,32 @@
 /* The constructor */
 Comp8Bits::Comp8Bits() {}
 
+void Comp8Bits::ios(char&a,
+                    char&b,
+                    char&c,
+                    char&d,
+                    char&e,
+                    char&f,
+                    char&g,
+                    char&h,
+                    char&o)
+{
+    
+    i7 = &a;
+    i6 = &b;
+    i5 = &c;
+    i4 = &d;
+    i3 = &e;
+    i2 = &f;
+    i1 = &g;
+    i0 = &h;
+    output = &o;
+    
+}
+
 /* The Comparator implementation */
 void Comp8Bits::evl () {
     
-    /* We split the 8 bit input into 2 4-bit subgroups, A3-0 and B3-0 */
-    
-    /* The A subgroup */
-    Wire *a3, *a2, *a1, *a0;
-    
-    /* The B subgroup */
-    Wire *b3, *b2, *b1, *b0;
+   
+   
 }

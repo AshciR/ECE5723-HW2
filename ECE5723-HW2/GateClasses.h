@@ -9,15 +9,11 @@
 #ifndef GateClasses_h
 #define GateClasses_h
 
-
-#endif /* GateClasses_h */
-
 class And {
     char *i1, *i2, *o1;
 public:
     And (); // constructor
     ~And(); // destructor
-    void foobar(char& a, char& b, char& w);
     void ios(char& a, char& b, char& w);
     void evl();
 };
@@ -48,3 +44,6 @@ public:
     void ios(char& a, char& b, char& w);
     void evl();
 };
+
+#endif /* GateClasses_h */
+
