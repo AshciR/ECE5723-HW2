@@ -18,8 +18,6 @@ public:
     And (); // constructor
     ~And(); // destructor
     void foobar(char& a, char& b, char& w);
-    //void ios(char& a, char& b, char &w);
-//    { i1 = &a; i2 = &b; o1 = &w; }
     void ios(char& a, char& b, char& w);
     void evl();
 };
@@ -29,7 +27,7 @@ class Or {
 public:
     Or (); // constructor
     ~Or(); // destructor
-    void ios(char& a, char& b, char &w) { i1 = &a; i2 = &b; o1 = &w; }
+    void ios(char& a, char& b, char& w);
     void evl();
 };
 
@@ -38,7 +36,7 @@ class Not {
 public:
     Not ();
     ~Not(); // destructor
-    void ios(char& a, char& w) { i1 = &a; o1 = &w; }
+    void ios(char& a, char& w);
     void evl ();
 };
 
@@ -47,6 +45,6 @@ class Xor {
 public:
     Xor ();
     ~Xor(); // destructor
-    void ios(char& a, char& b, char& w) { i1 = &a; i2 = &b; o1 = &w; }
+    void ios(char& a, char& b, char& w);
     void evl();
 };
