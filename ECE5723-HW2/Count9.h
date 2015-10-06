@@ -30,6 +30,9 @@ public:
     
     /* Does the evauluation */
     void evl();
+    
+    /* Convert from state to output bits */
+    void outputCountBits(void);
 };
 
 

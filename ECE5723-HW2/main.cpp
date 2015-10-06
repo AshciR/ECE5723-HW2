@@ -17,12 +17,14 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     
-    char clk('P'), rst, en;
+    char clk('P'), rst, en('1');
     char w, x, y, z;
     
     Count9 * cnter = new Count9;
     
     cnter->ios(clk, rst, en, w, x, y, z);
+    cnter->evl();
+    cnter->evl();
     cnter->evl();
     
 //    And *andGate = new And();
