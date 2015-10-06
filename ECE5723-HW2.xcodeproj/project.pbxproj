@@ -11,6 +11,7 @@
 		136418D21BC1B0CD001154DE /* GateClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418D11BC1B0CD001154DE /* GateClasses.cpp */; settings = {ASSET_TAGS = (); }; };
 		136418D91BC1C3FC001154DE /* Comp8Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418D81BC1C3FC001154DE /* Comp8Bits.cpp */; settings = {ASSET_TAGS = (); }; };
 		136418DC1BC1CBDB001154DE /* PointerPremitives.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 136418DB1BC1CBDB001154DE /* PointerPremitives.cpp */; settings = {ASSET_TAGS = (); }; };
+		137FA5651BC42E850011D14A /* Count9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 137FA5641BC42E850011D14A /* Count9.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		136418D81BC1C3FC001154DE /* Comp8Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comp8Bits.cpp; sourceTree = "<group>"; };
 		136418DA1BC1CBB0001154DE /* PointerPremitives.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerPremitives.h; sourceTree = "<group>"; };
 		136418DB1BC1CBDB001154DE /* PointerPremitives.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointerPremitives.cpp; sourceTree = "<group>"; };
+		137FA5631BC42C220011D14A /* Count9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Count9.h; sourceTree = "<group>"; };
+		137FA5641BC42E850011D14A /* Count9.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Count9.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,7 @@
 				136418D11BC1B0CD001154DE /* GateClasses.cpp */,
 				136418D81BC1C3FC001154DE /* Comp8Bits.cpp */,
 				136418DB1BC1CBDB001154DE /* PointerPremitives.cpp */,
+				137FA5641BC42E850011D14A /* Count9.cpp */,
 			);
 			path = "ECE5723-HW2";
 			sourceTree = "<group>";
@@ -81,6 +85,7 @@
 				136418D01BC1B08A001154DE /* GateClasses.h */,
 				136418D31BC1B6B1001154DE /* Comp8Bits.h */,
 				136418DA1BC1CBB0001154DE /* PointerPremitives.h */,
+				137FA5631BC42C220011D14A /* Count9.h */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -143,6 +148,7 @@
 			files = (
 				136418C41BC1AB74001154DE /* main.cpp in Sources */,
 				136418D91BC1C3FC001154DE /* Comp8Bits.cpp in Sources */,
+				137FA5651BC42E850011D14A /* Count9.cpp in Sources */,
 				136418D21BC1B0CD001154DE /* GateClasses.cpp in Sources */,
 				136418DC1BC1CBDB001154DE /* PointerPremitives.cpp in Sources */,
 			);
