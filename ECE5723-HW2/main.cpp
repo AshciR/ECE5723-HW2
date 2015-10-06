@@ -7,36 +7,51 @@
 //
 
 #include <iostream>
-#include "GateClasses.h"
-#include <string>
 #include "Count9.h"
 
 using namespace std;
 
+// Prototypes
+void showCounterWorking(void);
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
     
-    char clk('P'), rst, en('1');
+    showCounterWorking();
+        
+    return 0;
+}
+
+void showCounterWorking(void){
+    
+    char clk('P'), rst('1'), en('0');
     char w, x, y, z;
     
+    /* Instantiate the counter */
     Count9 * cnter = new Count9;
     
+    /* Pass inputs and outputs */
     cnter->ios(clk, rst, en, w, x, y, z);
-    cnter->evl();
-    cnter->evl();
-    cnter->evl();
     
-//    And *andGate = new And();
-//    
-//    andGate->ios(in1, in2, out);
-//    
-//    cout << "Enter in1: "; cin >> in1;
-//    cout << "Enter in2: "; cin >> in2;
-//    
-//    andGate->evl();
-//    
-//    cout << "The output is: " << out << "\n";
+    cout << "Clk:" << clk << " Reset:" << rst << " En:" << en << "\n";
+    cnter->evl();
+    cout << "Counter:" << w << x << y << z << "\n";
+
+    /* Turn reset off and enable on */
+    rst = '0';
+    en = '1';
     
-    return 0;
+    cout << "\nTurned reset off...\n\n";
+    cout << "Clk:" << clk << " Reset:" << rst << " En:" << en << "\n";
+    cnter->evl();
+    cout << "Counter:" << w << x << y << z << "\n";
+    
+    /* Start counting */
+    for (int i = 0; i < 10; i++) {
+        
+        cout << "Clk:" << clk << " Reset:" << rst << " En:" << en << "\n";
+        cnter->evl();
+        cout << "Counter:" << w << x << y << z << "\n";
+
+    }
+    
 }
